@@ -1,0 +1,21 @@
+Task 1.1 - Trace an activity using IPOS
+
+Activity: Opening YouTube in the Brave browser
+
+Stage      What happens                                      Hardware / component
+Input      I typed YouTube's URL in Brave's address bar       Keyboard
+           and pressed Enter.
+
+Processing Brave requests the YouTube webpage. The CPU        CPU, RAM, network adapter,
+           processes the browser instructions, while RAM     and network/router
+           temporarily holds data as the page loads. The
+           browser uses the network to contact YouTube's
+           server.
+
+Output     The YouTube webpage appears in the browser tab.    Screen / display
+
+Storage    I did not intentionally save a file or page to    Browser history or cached
+           cloud storage. Depending on browser settings,     data may be kept, but this
+           browsing history or cached page data may be kept.  is not the same as saving
+                                                            a file to cloud storage.
+
