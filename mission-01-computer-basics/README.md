@@ -1,6 +1,6 @@
 # Mission 1 — Know your computer
 
-## 1. Task / objective
+## 1. Task
 
 Explain how a computer uses input, processing, output and storage (IPOS), identify hardware and software, and describe computer-based systems used in everyday life.
 
@@ -9,7 +9,7 @@ Explain how a computer uses input, processing, output and storage (IPOS), identi
 - Completed Task 1.1 using the example of opening YouTube in the Brave browser.
 - Tasks 1.2 and 1.3 are still to be completed.
 
-## 3. Commands / tools used
+## 3. Tools used
 
 - Brave browser: used to open YouTube by entering its URL.
 - Keyboard: used to enter the URL.
@@ -27,7 +27,7 @@ I initially thought opening a website meant my activity was automatically saved 
 
 I clarified the difference between browser history or cache and intentionally saving something to cloud storage.
 
-## 7. Evidence / files
+## 7. Evidence
 
 - [Mission-01.txt](Mission-01.txt) — Task 1.1 IPOS notes.
 
