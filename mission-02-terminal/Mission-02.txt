@@ -1,0 +1,51 @@
+MISSION 2 - BECOME COMFORTABLE WITH THE TERMINAL
+
+Task 2.1 - Basic Terminal operations
+
+Operation                  Command / action                         What I observed
+Current-directory display  pwd                                      The path ended in digital-detective-8499, confirming I was in the repository.
+Directory listing           ls                                       It listed README.md, evidence, and the mission folders.
+Detailed listing            ls -l                                    It showed extra file and folder details such as permissions, size, and modified date.
+Change directory            cd .., then pwd                          I moved to the parent folder and confirmed the location changed. I then returned to the repository.
+Create directory            mkdir terminal-practice                  The terminal-practice folder appeared in the repository.
+Create empty file           touch terminal-practice/notes.txt         The command created an empty text file.
+Copy file                   cp terminal-practice/notes.txt \
+                            terminal-practice/notes-copy.txt          The copy was separate from the original.
+Rename / move file          mv terminal-practice/notes-copy.txt \
+                            terminal-practice/notes-renamed.txt       The copy had a new name in the same folder.
+Display file contents      cat terminal-practice/notes.txt          The empty file produced no text when displayed.
+
+Task 2.2 - Practise file changes safely
+
+I added two lines to terminal-practice/notes.txt. The first line was written with >, and the second was added with >>. I used cat to confirm that both lines were present. I also copied the file to notes-backup.txt and renamed the backup to notes-backup-renamed.txt.
+
+My answers to the reflection questions:
+- > writes or replaces a file's contents; >> adds text to the end without removing the existing contents.
+- cp makes another copy of a file. mv moves a file or changes its name.
+- pwd tells me the path of the current working directory.
+- ls shows the files and folders in the current location, which helps me see what is there.
+
+Task 2.3 - Flags and pipes
+
+Command used: ls -lah
+- -l showed a detailed listing.
+- -a included hidden files.
+- -h displayed file sizes in a human-readable format.
+- Compared with ls, the output included hidden entries and extra details.
+
+Command used: ls -lah | head
+Draft explanation to rewrite in my own words before submission: The pipe (|) sent the listing produced by ls -lah to head. The head command displayed the first few lines, so I could view only the beginning of the listing.
+
+Task 2.4 - Package managers
+
+Homebrew version checked: 7.0.16
+Command used: brew list
+Observation: The command displayed the packages managed by Homebrew. I did not install or uninstall anything.
+
+Why package managers are useful:
+A package manager provides one place to install, update, and remove software. It can also manage other packages that a program needs. (Rewrite this explanation in my own words before submission.)
+
+Files created for practice
+- terminal-practice/notes.txt
+- terminal-practice/notes-renamed.txt
+- terminal-practice/notes-backup-renamed.txt
