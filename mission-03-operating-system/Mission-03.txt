@@ -1,0 +1,44 @@
+MISSION 3 - STUDY DRAFT
+Verify these observations on your own computer and rewrite explanations in your own words before submission.
+
+Task 3.1 - Explore the operating system
+
+Information explored       Privacy-safe observation
+Operating system           macOS 27.0, build 26A428 (from sw_vers)
+Current account identity   Checked with id -un; value redacted.
+Storage                    df -h . showed 460 GiB total, 169 GiB used, 261 GiB available (40% used).
+System activity            Activity Monitor's CPU view showed active applications and background processes, with process names, CPU use, and PIDs. Examples at the time: Brave Browser and Finder.
+
+Task 3.2 - Understand processes
+
+A process is a program that is currently running. The PID is the process identifier used to distinguish a running process. In Activity Monitor, the PID column showed Brave Browser (PID 177) and Finder (PID 669) during this snapshot.
+
+Task 3.3 - Understand paths and permissions
+
+An absolute path gives a location from the root of the file system. Privacy-safe example: /Users/[redacted]/ALL/GITHUB/digital-detective-8499
+A relative path gives a location from the current folder. Example from the repository root: mission-03-operating-system/README.md. Moving into that subfolder added its name to the end of the current path.
+
+File checked: mission-02-terminal/terminal-practice/notes.txt
+Permission bits: -rw-r--r-- (the detailed listing may also show @ for extended attributes).
+Owner permissions: r (read) and w (write) are present; x (execute) is not present.
+
+Task 3.4 - Operating-system responsibilities
+
+Responsibility       Explanation and example
+Process management   The OS starts and schedules running applications. Example: it gives CPU time to the browser and other apps.
+Memory management    The OS assigns RAM to running apps and reclaims it when needed. Example: open browser tabs use memory.
+Device management    The OS coordinates hardware through system software. Example: it handles keyboard input and sends the page image to the display.
+File management      The OS organizes files and folders and controls access to them. Example: saving this report writes a file into the mission folder.
+User interface/shell The OS provides ways to interact with the computer. Example: Finder provides a graphical interface and Terminal accepts typed commands.
+Security/permissions The OS controls accounts and what they may read, change, or run. Example: file permissions can allow the owner to edit a file while preventing execution.
+
+Tools and commands observed
+- sw_vers: displayed macOS version and build.
+- id -un: checked the current account name; the value is redacted.
+- df -h .: displayed storage capacity and usage for the current volume.
+- Activity Monitor: used its CPU view to inspect running processes and PIDs.
+- ps and top were blocked by the session's permission limits; Activity Monitor provided the process snapshot instead.
+- ls -l was used to inspect the practice file's permission string.
+
+Difficulties / resolution
+The session blocked command-line process listings with an "operation not permitted" message. Activity Monitor was used to view the process list instead. Verify this behavior in your own Terminal before using it as your final account of the work.
