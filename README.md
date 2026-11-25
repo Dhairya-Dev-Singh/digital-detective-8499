@@ -6,7 +6,7 @@ This repository contains my work for the Digital Detective independent learning 
 
 - [Mission 0 — Setup](mission-00-setup/README.md) — **Complete**
 - [Mission 1 — Computer basics](mission-01-computer-basics/README.md) — **Complete**
-- [Mission 2 — Terminal](mission-02-terminal/README.md) — Not started
+- [Mission 2 — Terminal](mission-02-terminal/README.md) — **Complete**
 - [Mission 3 — Operating system](mission-03-operating-system/README.md) — Not started
 - [Mission 4 — Programs](mission-04-programs/README.md) — Not started
 - [Mission 5 — Numbers and data](mission-05-numbers-data/README.md) — Not started
@@ -24,4 +24,4 @@ Each mission has its own folder and README so its notes and work stay together. 
 
 ## Progress
 
-Mission 0 setup and Mission 1 are complete. Mission 1 Tasks 1.1–1.3 are documented in [Mission-01.txt](mission-01-computer-basics/Mission-01.txt). I will update this README as I complete and push each mission.
+Mission 0 setup, Mission 1, and Mission 2 are complete. Mission 1 Tasks 1.1–1.3 are documented in [Mission-01.txt](mission-01-computer-basics/Mission-01.txt), and Mission 2 work is documented in [Mission-02.txt](mission-02-terminal/Mission-02.txt). I will update this README as I complete and push each mission.

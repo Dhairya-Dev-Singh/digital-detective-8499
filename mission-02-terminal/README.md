@@ -25,7 +25,7 @@ Practise basic Terminal commands, create and manage files safely inside the assi
 
 ## 4. My understanding
 
-`pwd` shows where I am working, and `ls` shows what files and folders are there. `>` replaces a file's contents if it already exists, while `>>` appends text. `cp` keeps the original and creates another copy; `mv` moves or renames a file. Flags change how a command displays information, and a pipe sends one command's output to another command. A package manager helps manage software and its packages. (Rewrite these explanations in my own words before submission.)
+`pwd` tells me the path of my current working directory, and `ls` shows the items in a folder. `>` writes to a file and replaces its contents if it already has text; `>>` adds text to the end. `cp` copies a file, while `mv` renames or moves it. The `-l`, `-a`, and `-h` flags change what the listing shows. The pipe transfers one command's output as input to another. A package manager helps manage packages and download software.
 
 ## 5. Difficulties faced
 
@@ -44,6 +44,5 @@ Not applicable.
 
 ## 8. Commit details
 
-- Suggested commit message: `Complete Terminal and file management mission`
-- Commit status: Not committed yet.
-- Push status: Not pushed yet.
+- Commit message: `Update Mission 2 notes and progress`
+- Pushed to GitHub: Yes
