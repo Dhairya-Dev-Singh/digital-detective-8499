@@ -1,0 +1,24 @@
+MISSION 4 - STUDY DRAFT
+Run the program yourself and rewrite the comparison in your own words before submission.
+
+Task 4.1 - Create and run a Python program
+
+File: hello.py
+Program:
+print("Hello from Python")
+
+Command used: python3 hello.py
+Observed output:
+Hello from Python
+
+Task 4.2 - Compare a compiler and an interpreter
+
+Point                         Compiler                                      Interpreter
+When translation/execution    Usually translates source before execution.   Reads and carries out instructions at runtime.
+Typical output                 Often machine code or an executable.          The program's result; it may not create a separate executable.
+Example                        C compiler such as Clang.                      Python interpreter.
+One advantage                  Compiled programs can run quickly after       Makes it convenient to run and test code without a
+                              translation.                                   separate compile step.
+
+Draft explanation to rewrite in my own words:
+A compiler translates source code into another form before the program runs, often machine code. An interpreter reads and carries out instructions while the program is running. A compiled program can run quickly after translation, while an interpreter is convenient for trying code. Some language implementations combine both approaches.
