@@ -1,0 +1,59 @@
+# Mission 6 — Git and GitHub
+
+Study draft: review the repository steps and rewrite the explanations in your own words before submitting. The pull request is open and has not been merged.
+
+## Task 6.1 — Review the repository and make a commit
+
+I checked the repository state and recent history, then committed the root README progress update.
+
+- Commands used: `git status`, `git add README.md`, `git commit -m "Update README before Git workflow"`, and `git log -3 --oneline`.
+- Commit: `cea1bfc` — `Update README before Git workflow`.
+- `git add` stages selected changes so they can be included in a commit. `git commit` saves the staged snapshot in the repository history. `git log` displays earlier commits.
+
+## Task 6.2 — Create and push a branch
+
+I created the `update-about` branch, added a **My Learning** section to the root README, committed that change, and pushed the branch to GitHub.
+
+- Branch: `update-about`.
+- Commands used: `git switch -c update-about`, `git add README.md`, `git commit -m "Add My Learning section to README"`, and `git push -u origin update-about`.
+- Commit: `48b3ce8` — `Add My Learning section to README`.
+- A branch lets me work on a change separately from `main`. Pushing sends the branch and its commits to GitHub.
+
+## Task 6.3 — Open a pull request
+
+I opened a pull request from `update-about` into `main` so the README changes can be reviewed.
+
+- Pull request: [#1 — Add My Learning section to README](https://github.com/Dhairya-Dev-Singh/digital-detective-8499/pull/1).
+- Status: Open; not merged.
+- A pull request proposes changes from one branch to another and gives people a place to review the changes.
+
+## Task 6.4 — Git command glossary
+
+- `git init` creates a new Git repository in a folder.
+- `git status` shows the current branch and whether files have changes to save.
+- `git add <file>` stages a file's changes for the next commit.
+- `git commit -m "message"` records the staged changes with a short description.
+- `git log --oneline` shows a compact list of recent commits.
+- `git branch` lists branches; `git switch -c <branch>` creates and switches to a branch.
+- `git switch <branch>` switches to an existing branch.
+- `git push -u origin <branch>` sends a branch to GitHub and sets its upstream.
+- `git pull` gets and integrates updates from the remote branch.
+
+## My understanding
+
+Git records project changes as commits. Branches let me work on a set of changes separately, and a pull request lets me ask for those changes to be reviewed before merging. Rewrite this summary in my own words before submitting.
+
+## Difficulties faced and how I resolved them
+
+No major Git issue was recorded during this work. I checked the GitHub comparison page to confirm the base was `main` and the proposed branch was `update-about` before creating the pull request.
+
+## Evidence and files
+
+- [Root README](../README.md) — project progress and learning notes.
+- [Mission 6 README](README.md) — task summary and Git workflow overview.
+- [Pull request #1](https://github.com/Dhairya-Dev-Singh/digital-detective-8499/pull/1) — visible branch comparison and review page.
+
+## Commit details
+
+- `cea1bfc` — `Update README before Git workflow` (Mission 6 progress update on `main`).
+- `48b3ce8` — `Add My Learning section to README` (branch `update-about`; pull request #1).
