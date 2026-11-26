@@ -25,3 +25,9 @@ Each mission has its own folder and README so its notes and work stay together. 
 ## Progress
 
 Missions 0–5 are complete, and Mission 6 is in progress. Mission 1 Tasks 1.1–1.3 are documented in [Mission-01.txt](mission-01-computer-basics/Mission-01.txt), Mission 2 work is documented in [Mission-02.txt](mission-02-terminal/Mission-02.txt), and Mission 5 notes are in [Mission-05.txt](mission-05-numbers-data/Mission-05.txt). I will update this README as I complete and push each mission.
+
+## My Learning
+
+- I learned how computers use input, processing, output, and storage in everyday activities.
+- I practised Terminal commands to locate folders and create, copy, and rename files safely.
+- I used Python conversion functions to convert decimal values to binary and hexadecimal.
